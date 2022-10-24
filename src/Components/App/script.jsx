@@ -12,7 +12,7 @@ const add = () => {
         li.classList.add("list-group-item");
 
         const button = document.createElement("button");
-        button.innerText = "Delete";
+        button.innerText = "Delte";
         button.onclick = () => {
             li.remove();
         };
